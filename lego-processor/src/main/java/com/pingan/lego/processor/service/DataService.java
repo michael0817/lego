@@ -1,9 +1,11 @@
 package com.pingan.lego.processor.service;
 
-import com.pingan.lego.processor.service.external.EsService;
-import com.pingan.lego.processor.service.external.WsService;
-import com.pingan.lego.processor.service.external.AsService;
-import com.pingan.lego.processor.service.external.DwService;
+import com.pingan.lego.config.cache.CommandInfoCache;
+import com.pingan.lego.processor.service.external.IEsService;
+import com.pingan.lego.processor.service.external.IWsService;
+import com.pingan.lego.processor.service.external.IAsService;
+import com.pingan.lego.processor.service.external.IDwService;
+import com.pingan.lego.processor.service.internal.IRuleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,13 +18,15 @@ import org.springframework.stereotype.Service;
 public class DataService {
 
     @Autowired
-    public DwService dwService;
+    public IDwService dwService;
     @Autowired
-    public WsService wsService;
+    public IWsService wsService;
     @Autowired
-    public EsService esService;
+    public IEsService esService;
     @Autowired
-    public AsService asService;
+    public IAsService asService;
+    @Autowired
+    public IRuleService ruleService;
 
 
 }

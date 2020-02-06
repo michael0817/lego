@@ -9,7 +9,6 @@
         <module>lego-processor</module>
         <module>lego-output</module>
         <module>lego-common</module>
-        <module>lego-starter</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,6 +1,6 @@
 package com.pingan.lego.processor.service.external.impl;
 
-import com.pingan.lego.processor.service.external.EsService;
+import com.pingan.lego.processor.service.external.IEsService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,5 +9,20 @@ import org.springframework.stereotype.Service;
  * @create: 2020-02-06 11:16
  **/
 @Service
-public class SampleEsServiceImpl implements EsService {
+public class SampleEsServiceImpl implements IEsService {
+
+    @Override
+    public void insertRecordToEs() {
+
+    }
+
+    @Override
+    public void queryRecordsFromEs() {
+
+    }
+
+    @Override
+    public void querySingleRecordFromEs() {
+
+    }
 }

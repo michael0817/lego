@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  * @author: xu min xuan
  * @create: 2020-02-05 14:27
  */
-public interface WsService {
+public interface IWsService {
 
     /**
      * 预计算调用方法

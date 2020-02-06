@@ -1,6 +1,6 @@
 package com.pingan.lego.processor.service.external.impl;
 
-import com.pingan.lego.processor.service.external.WsService;
+import com.pingan.lego.processor.service.external.IWsService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @create: 2020-02-06 11:16
  **/
 @Service
-public class SampleWsServiceImpl implements WsService {
+public class SampleWsServiceImpl implements IWsService {
     @Override
     public void flowPush() {
 

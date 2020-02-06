@@ -1,6 +1,6 @@
 package com.pingan.lego.processor.service.external.impl;
 
-import com.pingan.lego.processor.service.external.AsService;
+import com.pingan.lego.processor.service.external.IAsService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,5 +9,15 @@ import org.springframework.stereotype.Service;
  * @create: 2020-02-06 11:16
  **/
 @Service
-public class SampleAsServiceImpl implements AsService {
+public class SampleAsServiceImpl implements IAsService {
+
+    @Override
+    public void insertKvToAs() {
+
+    }
+
+    @Override
+    public void readKvFromAs() {
+
+    }
 }

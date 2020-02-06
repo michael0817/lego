@@ -1,6 +1,6 @@
 package com.pingan.lego.processor.service.external.impl;
 
-import com.pingan.lego.processor.service.external.DwService;
+import com.pingan.lego.processor.service.external.IDwService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -9,5 +9,9 @@ import org.springframework.stereotype.Service;
  * @create: 2020-02-06 11:16
  **/
 @Service
-public class SampleDwServiceImpl implements DwService {
+public class SampleDwServiceImpl implements IDwService {
+    @Override
+    public void queryVariable() {
+
+    }
 }

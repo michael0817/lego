@@ -1,7 +1,5 @@
 package com.pingan.lego.input.sync;
 
-import Utils.GsonUtil;
-import com.pingan.lego.processor.ICfgEventProcessor;
 import entity.CfgContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,14 +16,11 @@ import javax.servlet.http.HttpServletRequest;
  */
 @RestController
 @RequestMapping(value="/sync")
-public class InputController {
-
-    @Autowired
-    ICfgEventProcessor demoEventProcessorB9999;
+public class CommandController {
 
     @RequestMapping(value = "/process", method = RequestMethod.GET)
     public CfgContext process(@RequestParam(value = "inputContext", required = false) String context, HttpServletRequest
             request) {
-        return demoEventProcessorB9999.process(GsonUtil.getBean(context, CfgContext.class));
+        return new CfgContext();
     }
 }

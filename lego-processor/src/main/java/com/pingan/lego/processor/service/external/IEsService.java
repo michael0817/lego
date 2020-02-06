@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
  * @author: xu min xuan
  * @create: 2020-02-05 16:39
  */
-public interface EsService {
+public interface IEsService {
 
     /**
      * ES单条数据写入方法

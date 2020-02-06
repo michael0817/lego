@@ -1,6 +1,6 @@
 package com.pingan.lego.processor.service;
 
-import com.pingan.lego.processor.service.external.CcService;
+import com.pingan.lego.config.cache.CommandInfoCache;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,9 +13,9 @@ import org.springframework.stereotype.Service;
 public class CommandService {
 
     @Autowired
-    private CcService sampleCcServiceImpl;
+    CommandInfoCache cache;
 
-    public <T> T getTaskInfos(){
+    public <T> T getCommandInfo(){
         return null;
     }
 }
