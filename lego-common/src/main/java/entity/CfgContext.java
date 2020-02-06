@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * @program: lego-parent
  * @description: 跨领域上下文
- * @author: xuminxuan
+ * @author: xu min xuan
  * @create: 2020-02-05 10:17
  */
 @Data

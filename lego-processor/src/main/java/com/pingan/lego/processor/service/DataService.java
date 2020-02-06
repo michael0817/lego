@@ -8,9 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @program: lego-parent
- * @description: 数据统一服务
- * @author: xuminxuan
+ * @description: 数据中心统一调用服务
+ * @author: xu min xuan
  * @create: 2020-02-05 14:26
  */
 @Service

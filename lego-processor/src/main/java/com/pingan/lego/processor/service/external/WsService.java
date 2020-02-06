@@ -3,9 +3,8 @@ package com.pingan.lego.processor.service.external;
 import org.springframework.stereotype.Service;
 
 /**
- * @program: lego-parent
- * @description: 预计算指标服务
- * @author: xuminxuan
+ * @description: 预计算指标调用服务
+ * @author: xu min xuan
  * @create: 2020-02-05 14:27
  */
 public interface WsService {
@@ -36,4 +35,5 @@ public interface WsService {
      * 分布式去重写入方法
      */
     public void isDuplicated();
+
 }
