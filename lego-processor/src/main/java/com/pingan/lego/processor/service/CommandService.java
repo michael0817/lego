@@ -1,4 +1,4 @@
-package com.pingan.lego.service;
+package com.pingan.lego.processor.service;
 
 /**
  * @program: lego-parent

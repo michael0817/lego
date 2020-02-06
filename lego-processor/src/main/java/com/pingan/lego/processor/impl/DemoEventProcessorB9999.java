@@ -1,7 +1,7 @@
 package com.pingan.lego.processor.impl;
 
 import com.pingan.lego.processor.ICfgEventProcessor;
-import com.pingan.lego.service.DataService;
+import com.pingan.lego.processor.service.DataService;
 import entity.CfgContext;
 import org.springframework.beans.factory.annotation.Autowired;
 

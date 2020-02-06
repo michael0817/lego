@@ -38,6 +38,8 @@ public class CfgContext extends BaseEntity {
     //事件参数
     private Map<String,Object> parameters = Maps.newHashMap();
 
+    public CfgContext(){};
+
     //事件中心上下文初始化构造方法
     public CfgContext(String traceNo, String instanceCode, CfgResponse response, Object param){
         this.traceNo = traceNo;

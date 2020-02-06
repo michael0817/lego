@@ -1,4 +1,4 @@
-package com.pingan.lego.service.external;
+package com.pingan.lego.processor.service.external;
 
 import org.springframework.stereotype.Service;
 

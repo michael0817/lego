@@ -8,8 +8,8 @@
         <module>lego-input</module>
         <module>lego-processor</module>
         <module>lego-output</module>
-        <module>lego-rule-engine</module>
         <module>lego-common</module>
+        <module>lego-starter</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,9 +1,9 @@
-package com.pingan.lego.service;
+package com.pingan.lego.processor.service;
 
-import com.pingan.lego.service.external.AsService;
-import com.pingan.lego.service.external.DwService;
-import com.pingan.lego.service.external.EsService;
-import com.pingan.lego.service.external.WsService;
+import com.pingan.lego.processor.service.external.EsService;
+import com.pingan.lego.processor.service.external.WsService;
+import com.pingan.lego.processor.service.external.AsService;
+import com.pingan.lego.processor.service.external.DwService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 public class DataService {
 
     @Autowired
-    public DwService dwServcie;
+    public DwService dwService;
     @Autowired
     public WsService wsService;
     @Autowired
